@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/png" href="sea.jpg" />
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="icon" href="/public/favicon.ico">
+  <title>Animals</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Animals</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <!-- <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a> -->
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="contents">
+    <video autoplay muted loop class="video">
+      <source src="/videos/videoplayback.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <h1>Animals, Envs and more...</h1>
+  </div>
+
+  <div class="section-two">
+    <br>
+    <div class="animals">
+      <p>Animals</p>
+      <p style="font-size: 13px;margin-bottom: -15px;margin-top: -16px;">*hover on animal name*</p>
+      <hr style="color:black;border:1px solid;">
+    </div>
+    
+    <div class="row">
+      <div class="col-lg-3">
+        <img class="animal-image" src="/pictures/tiger.jpg" alt="">
+        <p class="image-content">Tiger</p>
+        <div class="animal-description">
+          <span>The tiger (Panthera tigris) is the largest species among the Felidae and classified in the genus
+            Panthera.</span>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <img class="animal-image" src="/pictures/lion.jpg" alt="">
+        <p class="image-content">Lion</p>
+        <div class="animal-description">
+          <span>The lion (Panthera leo) is a species in the family Felidae; it is a muscular, deep-chested cat with a
+            short, rounded head, a reduced neck and round ears.</span>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <img class="animal-image" src="/pictures/wolf.jpg" alt="">
+        <p class="image-content">Wolf</p>
+        <div class="animal-description">
+          <span>The wolf (Canis lupus), also known as the gray wolf or grey wolf, is a large canine native to Eurasia
+            and North America. It is the largest extant member of Canidae.</span>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <img class="animal-image" src="/pictures/monkey.jpg" alt="">
+        <p class="image-content">Monkey</p>
+        <div class="animal-description">
+          <span>Monkey is a common name that may refer to groups or species of mammals, in part, the simians of
+            infraorder Simiiformes.</span>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <img class="animal-image" src="/pictures/frog.jpg" alt="">
+        <p class="image-content">Frog</p>
+        <div class="animal-description">
+          <span>A frog is any member of a diverse and largely carnivorous group of short-bodied, tailless amphibians
+            composing the order Anura.</span>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <img class="animal-image" src="/pictures/snake.jpeg" alt="">
+        <p class="image-content">Snake</p>
+        <div class="animal-description">
+          <span>Snakes are elongated, legless, carnivorous reptiles of the suborder Serpentes. Like all other
+            squamates, snakes are ectothermic.</span>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <img class="animal-image" src="/pictures/horse.jpg" alt="">
+        <p class="image-content">Horse</p>
+        <div class="animal-description">
+          <span>The horse is one of two extant subspecies of Equus ferus. It is an odd-toed
+            ungulate mammal belonging to the taxonomic family Equidae.</span>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <img class="animal-image" src="/pictures/fish.jpg" alt="">
+        <p class="image-content">Fish</p>
+        <div class="animal-description">
+          <span>Fish are gill-bearing aquatic craniate animals that lack limbs with digits. They form a sister group to
+            the tunicates, together forming the olfactores.</span>
+        </div>
+      </div>
+    </div>
+    <br><br>
+
+    <div class="environments">
+      <div class="envs">
+        <p>Environments</p>
+        <hr style="color:black;border:1px solid;">
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="sea-env-image" src="/pictures/sea.jpg" alt="">
+            </div>
+            <div class="col-lg-4">
+              <div class="sea-load-more">
+                <button class="btn show-desc-btn" style="background-color: #c7e1f9;" onclick="show_sea_description()">Show sea description</button>
+              </div>
+              <div class="sea-env-desc">
+                <p>Description:</p>
+                <p>The sea, the world ocean or simply the ocean is the connected body of salty water that covers over
+                  70%
+                  of Earth's surface (361,132,000 square kilometres (139,434,000 sq mi), with a total volume of roughly
+                  1,332,000,000 cubic kilometres (320,000,000 cu mi)).[1] It moderates Earth's climate and has important
+                  roles in the water cycle, carbon cycle, and nitrogen cycle.</p><br>
+                <button class="btn sea-btn">Load another photos...</button>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="photos">
+                <div class="images-slider">
+                  <div class="image-slides">
+                    <img class="slider-image" src="/pictures/sea2.jpg" alt="">
+                  </div>
+
+                  <div class="image-slides" style="display: none;">
+                    <img class="slider-image" src="/pictures/sea3.jpg" alt="">
+                  </div>
+
+                  <div class="image-slides" style="display: none;">
+                    <img class="slider-image" src="/pictures/sea4.jpg" alt="">
+                  </div>
+
+                </div>
+
+                <div style="text-align:center;position: relative;bottom:25px;">
+                  <span class="image-dot active" onclick="getImage(0)"></span>
+                  <span class="image-dot" onclick="getImage(1)"></span>
+                  <span class="image-dot" onclick="getImage(2)"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br><br>
+        </div>
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="videos">
+                <div class="videos-slider">
+                  <div class="video-slides">
+                    <video class="slider-video" autoplay muted loop>
+                      <source src="/videos/v1.mp4" type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  <div class="video-slides" style="display: none;">
+                    <video class="slider-video" autoplay muted loop>
+                      <source src="/videos/v2.mp4" type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  <div class="video-slides" style="display: none;">
+                    <video class="slider-video" autoplay muted loop>
+                      <source src="/videos/v3.mp4" type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                </div>
+
+                <div style="text-align:center;position: relative;bottom:30px;right:8px;">
+                  <span class="video-dot active" onclick="getVideo(0)"></span>
+                  <span class="video-dot" onclick="getVideo(1)"></span>
+                  <span class="video-dot" onclick="getVideo(2)"></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="forest-load-more">
+                <button class="btn show-desc-btn" style="background-color: #b9bf4a;" onclick="show_forest_description()">Show forest description</button>
+              </div>
+              <div class="forest-env-desc">
+                <p>Description:</p>
+                <p>A forest is a large area dominated by trees. Hundreds of more precise definitions of forest are used
+                  throughout the world, incorporating factors such as tree density, tree height, land use, legal
+                  standing
+                  and ecological function.According to the widely used Food and Agriculture Organization
+                  definition, forests covered 4 billion hectares (9.9×109 acres) (15 million square miles).
+                </p><br>
+                <button class="btn forest-btn">Load some videos...</button>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <img class="forest-env-image" src="/pictures/forest.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br><br><br>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Top">&#60;</button>
+  </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="/js/index.js"></script>
+
+</html>
