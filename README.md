@@ -2,7 +2,7 @@
 This website written in html,css and javascript
 
 ## Demo
-The website running this demo can be found [here](https://animalsdemo.herokuapp.com/).
+The website running this demo can be found [here](https://animals-site.herokuapp.com/).
 
 ## Installation
 ```sh
